@@ -1,24 +1,11 @@
 <?php
- // ket noi den csdl
+include_once "vendor/autoload.php";
 
-include_once "src/Database.php";
+use Src\Controller\BookController;
 
-$database = new Database();
-$pdo = $database->connect();
+$bookController = new BookController();
+$data = $bookController->getAllBook();
 
-// lay sanh nguoi dung trong database
-// b1: chuan bi cau lenh SQL tuong ung
-$sql = 'SELECT users.id, users.name, users.email, users.address, groups.name as `groupName`
-        FROM `users`
-        JOIN `groups` 
-        ON users.group_id = groups.id';
-$stmt = $pdo->prepare($sql);
-
-// b2: thuc thi cau lenh
-$stmt->execute();
-
-// b3: Lay ra du lieu
-$data = $stmt->fetchAll(); // fetchAll() Lay tat ca cac hang;
 
 ?>
 
@@ -45,7 +32,7 @@ $data = $stmt->fetchAll(); // fetchAll() Lay tat ca cac hang;
         <a href="view/groups/list.php">Group manager</a>
     </div>
 
-    <a href="view/add.php">Add</a>
+    <a href="view/books/add.php">Add</a>
     <table border="1">
         <tr>
             <td>#</td>

@@ -1,23 +1,15 @@
 <?php
 
-include_once "../src/Database.php";
+use Src\Controller\BookController;
 
-$database = new Database();
-$pdo = $database->connect();
+include_once "../vendor/autoload.php";
 
 try {
-    //b1: cau lenh sql
-    $sql = 'DELETE FROM `users` WHERE id = ?';
-    $stmt = $pdo->prepare($sql);
-
-// b2: gan du lieu id
-    $id = $_REQUEST['id'];
-    $stmt->bindParam(1, $id);
-    $stmt->execute();
-    header('location: ../index.php');
+   $bookController = new BookController();
+   $bookController->delete();
 
 }catch (PDOException $PDOException) {
-    echo 'Co noi xay ra';
+    echo 'Co noi xay ra: ' . $PDOException->getMessage();
     echo '<a href="../index.php">Quay lai</a>';
     die();
 }

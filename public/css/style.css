@@ -1,0 +1,57 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+ td {
+    height: 50px;
+}
+
+#list-user td {
+    text-align: center;
+}
+
+#form-add-user {
+    border: 1px solid red;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.add-user {
+    background-color: aqua;
+}
+
+.delete-user {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.td-title {
+    text-align: right;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.td-title:hover {
+    color: red;
+}
+
+#form-add-user input, select {
+    height: 70%;
+    width: 50%;
+}
+
+#btn-add-user {
+    background-color: aqua;
+    padding: 10px 20px;
+}
+
+#error-email {
+    color: red;
+}

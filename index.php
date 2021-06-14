@@ -19,11 +19,9 @@ $data = $bookController->getAllBook();
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="public/css/style.css">
     <style>
-        table {
-            width: 500px;
-            border-collapse: collapse;
-        }
+
     </style>
 </head>
 <body>
@@ -32,8 +30,8 @@ $data = $bookController->getAllBook();
         <a href="view/groups/list.php">Group manager</a>
     </div>
 
-    <a href="view/books/add.php">Add</a>
-    <table border="1">
+    <a href="view/books/add.php" class="add-user">Add</a>
+    <table border="1" id="list-user">
         <tr>
             <td>#</td>
             <td>Name</td>
@@ -44,12 +42,12 @@ $data = $bookController->getAllBook();
         </tr>
         <?php foreach ($data as $key => $item): ?>
         <tr>
-            <td>1</td>
+            <td><?php echo $key + 1 ?></td>
             <td><?php echo $item['name'] ?></td>
             <td><?php echo $item['email'] ?></td>
             <td><?php echo $item['address'] ?></td>
             <td><?php echo $item['groupName'] ?></td>
-            <td><a onclick="return confirm('Are you sure?')" href="action/delete.php?id=<?php echo $item['id'] ?>">Delete</a></td>
+            <td><a class="delete-user" onclick="return confirm('Are you sure?')" href="action/delete.php?id=<?php echo $item['id'] ?>">Delete</a></td>
         </tr>
         <?php endforeach; ?>
 

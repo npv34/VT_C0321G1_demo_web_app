@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e55868a-218a-489f-914e-4269ca3a30b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/BookController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/GroupController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/BookModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/GroupModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/UserModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/my.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/web_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web_app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/action/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/books/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/books/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/books/add.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -31,6 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,6 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -61,12 +55,6 @@
       <recent name="$PROJECT_DIR$/view/books" />
       <recent name="$PROJECT_DIR$/src/model" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1623309907794</updated>
       <workItem from="1623309909213" duration="3560000" />
-      <workItem from="1623395658171" duration="2264000" />
+      <workItem from="1623395658171" duration="2770000" />
+      <workItem from="1623655268122" duration="2145000" />
     </task>
     <servers />
   </component>

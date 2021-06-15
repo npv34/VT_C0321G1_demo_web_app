@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e55868a-218a-489f-914e-4269ca3a30b5" name="Default Changelist" comment="" />
+    <list default="true" id="2e55868a-218a-489f-914e-4269ca3a30b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/template/OverlayScrollbars.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/template/adminlte.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/template/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/template/tempusdominus-bootstrap-4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/AdminLTELogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.overlayScrollbars.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/core/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/core/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/users/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/action/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/BookModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/books/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/users/add.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,13 +95,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/image" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/image" />
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public/css/template" />
+      <recent name="$PROJECT_DIR$/public/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/css/template" />
       <recent name="$PROJECT_DIR$/view/books" />
       <recent name="$PROJECT_DIR$/src/model" />
     </key>
@@ -59,7 +123,8 @@
       <updated>1623309907794</updated>
       <workItem from="1623309909213" duration="3560000" />
       <workItem from="1623395658171" duration="2770000" />
-      <workItem from="1623655268122" duration="2428000" />
+      <workItem from="1623655268122" duration="3085000" />
+      <workItem from="1623741515902" duration="5078000" />
     </task>
     <servers />
   </component>

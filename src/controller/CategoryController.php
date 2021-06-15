@@ -2,13 +2,13 @@
 
 namespace Src\Controller;
 
-use src\model\BookModel;
+use src\model\UserModel;
 
 class CategoryController
 {
     public $bookModel;
     public function __construct()
     {
-        $this->bookModel = new BookModel();
+        $this->bookModel = new UserModel();
     }
 }

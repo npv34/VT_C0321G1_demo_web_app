@@ -6,5 +6,4 @@ namespace Src\Controller;
 
 class Controller
 {
-
 }
